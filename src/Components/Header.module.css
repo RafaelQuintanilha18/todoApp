@@ -1,0 +1,10 @@
+header {
+  background-color: var(--gray700);
+  height: 200px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 72px 0 53px 0;
+}

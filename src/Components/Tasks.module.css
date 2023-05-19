@@ -1,0 +1,33 @@
+.task {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: var(--gray500);
+  border: 1px solid var(--gray400);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1rem;
+}
+
+.taskTodo {
+  color: var(--blue)
+}
+
+.taskTodo:hover {
+  color: var(--blueDark);
+}
+
+.taskChecked {
+  color: var(--purpleDark)
+}
+
+.taskChecked:hover {
+  color: var(--purple);
+  cursor: pointer;
+}
+
+.textCompleted {
+  text-decoration:line-through;
+}
